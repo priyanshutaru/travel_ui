@@ -38,6 +38,18 @@ class _HomePageState extends State<HomePage> {
             "Wed Arranger",
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
+          // ignore: prefer_const_literals_to_create_immutables
+          actions: [
+          Center(child: Text("Location")),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(2, 8, 8, 8),
+            child: Icon(
+              
+              Icons.arrow_drop_down,
+              color: Colors.black,
+            ),
+          ),
+        ],
         ),
         body: pages[current_index],
         drawer: AppDrawer(),
