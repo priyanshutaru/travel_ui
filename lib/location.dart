@@ -25,7 +25,7 @@ class _AppBarLocationState extends State<AppBarLocation> {
               child: TextFormField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  labelText: 'Search',
+                  labelText: 'Search Location Here.....',
                   suffixIcon: Icon(Icons.search),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),

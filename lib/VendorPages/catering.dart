@@ -31,7 +31,7 @@ class _DrawerVendorVenueState extends State<DrawerVendorCatring> {
                 child: TextFormField(
                   keyboardType: TextInputType.text,
                   decoration: InputDecoration(
-                    labelText: 'Search',
+                    labelText: 'Search Catering Here....',
                     suffixIcon: Icon(Icons.search),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20),

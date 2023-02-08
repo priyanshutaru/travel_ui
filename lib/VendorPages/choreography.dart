@@ -31,7 +31,7 @@ class _DrawerVendorVenueState extends State<DrawerVendorChoreography> {
                 child: TextFormField(
                   keyboardType: TextInputType.text,
                   decoration: InputDecoration(
-                    labelText: 'Search',
+                    labelText: 'Search Choreography Here....',
                     suffixIcon: Icon(Icons.search),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20),
