@@ -12,7 +12,16 @@ import 'package:travel_ui/DrawerPages/blog.dart';
 import 'package:travel_ui/DrawerPages/course.dart';
 import 'package:travel_ui/DrawerPages/home.dart';
 import 'package:travel_ui/DrawerPages/search_filter.dart';
-import 'package:travel_ui/DrawerPages/venue.dart';
+import 'package:travel_ui/VendorPages/band.dart';
+import 'package:travel_ui/VendorPages/catering.dart';
+import 'package:travel_ui/VendorPages/choreography.dart';
+import 'package:travel_ui/VendorPages/cinematography.dart';
+import 'package:travel_ui/VendorPages/dj.dart';
+import 'package:travel_ui/VendorPages/makeup.dart';
+import 'package:travel_ui/VendorPages/mehandi.dart';
+import 'package:travel_ui/VendorPages/photographer.dart';
+import 'package:travel_ui/VendorPages/venue.dart';
+import 'package:travel_ui/VendorPages/weddingplanner.dart';
 
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});
@@ -65,89 +74,125 @@ class AppDrawer extends StatelessWidget {
               ListTile(
                 title: Text("Venue"),
                 leading: Icon(Icons.gradient),
-                 onTap: (() {
-              Navigator.push(
-                  context,
-                  new MaterialPageRoute(
-                      builder: (context) => new DrawerVenue()));
-            }),
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new DrawerVendorVenue()));
+                }),
               ),
               ListTile(
                 title: Text("Photographer"),
                 leading: Icon(Icons.camera_alt),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) =>
+                              new DrawerVendorPhotographer()));
+                }),
               ),
               ListTile(
                 title: Text("Cinematography"),
                 leading: Icon(Icons.catching_pokemon_sharp),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) =>
+                              new DrawerVendorCinematography()));
+                }),
               ),
               ListTile(
                 title: Text("Makeup Artist"),
                 leading: Icon(Icons.girl),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new DrawerVendorMakup()));
+                }),
               ),
               ListTile(
                 title: Text("Mehandi Artist"),
                 leading: Icon(Icons.back_hand),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new DrawerVendorMahandi()));
+                }),
               ),
               ListTile(
                 title: Text("Launge"),
                 leading: Icon(Icons.home_filled),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new DrawerHome()));
+                }),
               ),
               ListTile(
                 title: Text("Wedding Planner"),
                 leading: Icon(Icons.play_disabled_outlined),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new DrawerVendorPlanner()));
+                }),
               ),
               ListTile(
                 title: Text("Catering"),
                 leading: Icon(Icons.point_of_sale),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new DrawerVendorCatring()));
+                }),
               ),
               ListTile(
                 title: Text("Decoratores"),
                 leading: Icon(Icons.deck_outlined),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new DrawerHome()));
+                }),
               ),
               ListTile(
                 title: Text("Choreography"),
                 leading: Icon(Icons.crop_outlined),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) =>
+                              new DrawerVendorChoreography()));
+                }),
               ),
               ListTile(
                 title: Text("Band"),
                 leading: Icon(Icons.bakery_dining_outlined),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new DrawerVendorBand()));
+                }),
               ),
               ListTile(
                 title: Text("DJ"),
                 leading: Icon(Icons.music_note),
-                onTap: () {
-                  //action on press
-                },
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new DrawerVendorDj()));
+                }),
               ),
 
               //more child menu
