@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, non_constant_identifier_names
+// ignore_for_file: prefer_const_constructors, non_constant_identifier_names, unnecessary_new
 
 import 'package:flutter/material.dart';
 import 'package:travel_ui/BottomNavBar/contact.dart';
@@ -6,6 +6,7 @@ import 'package:travel_ui/BottomNavBar/course.dart';
 import 'package:travel_ui/BottomNavBar/home.dart';
 import 'package:travel_ui/BottomNavBar/login.dart';
 import 'package:travel_ui/drawer.dart';
+import 'package:travel_ui/location.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -16,7 +17,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   List pages = [
-    
     BottomHome(),
     BottomCourse(),
     BottomContact(),
@@ -40,16 +40,23 @@ class _HomePageState extends State<HomePage> {
           ),
           // ignore: prefer_const_literals_to_create_immutables
           actions: [
-          Center(child: Text("Location")),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(2, 8, 8, 8),
-            child: Icon(
-              
-              Icons.arrow_drop_down,
-              color: Colors.black,
+            Center(child: Text("Location")),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(2, 8, 8, 8),
+              child: GestureDetector(
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new AppBarLocation()));
+                }),
+                child: Icon(
+                  Icons.arrow_drop_down,
+                  color: Colors.black,
+                ),
+              ),
             ),
-          ),
-        ],
+          ],
         ),
         body: pages[current_index],
         drawer: AppDrawer(),
@@ -85,5 +92,4 @@ class _HomePageState extends State<HomePage> {
               ),
             ]));
   }
-
 }

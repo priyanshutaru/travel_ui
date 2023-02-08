@@ -473,7 +473,7 @@ class _BottomHomeState extends State<BottomHome> {
             ),
             Container(
               alignment: Alignment.topRight,
-              height: 100,
+              height: 180,
               width: (MediaQuery.of(context).size.width),
               //color: Colors.red,
               decoration: const BoxDecoration(
