@@ -52,7 +52,7 @@ class _BottomHomeState extends State<BottomHome> {
             Column(
               //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Container(
+                SizedBox(
                   //height: MediaQuery.of(context).size.height,
                   //width: MediaQuery.of(context).size.width,
                   height: 168,
@@ -67,7 +67,7 @@ class _BottomHomeState extends State<BottomHome> {
                           },
                           child: Container(
                             height: 150,
-                            width: 200,
+                            width: 100,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(10),
@@ -77,10 +77,10 @@ class _BottomHomeState extends State<BottomHome> {
                               children: <Widget>[
                                 Container(
                                   height: 100,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     // color: Colors.red,
-                                    borderRadius: BorderRadius.circular(10),
+                                    borderRadius: BorderRadius.circular(50),
                                     image: const DecorationImage(
                                       image: NetworkImage(
                                           "https://wedarranger.com//images/mehandi.jpg"),
@@ -90,7 +90,7 @@ class _BottomHomeState extends State<BottomHome> {
                                 ),
                                 Container(
                                   height: 50,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(10),
@@ -118,7 +118,7 @@ class _BottomHomeState extends State<BottomHome> {
                           },
                           child: Container(
                             height: 150,
-                            width: 200,
+                            width: 100,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(10),
@@ -128,10 +128,10 @@ class _BottomHomeState extends State<BottomHome> {
                               children: <Widget>[
                                 Container(
                                   height: 100,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     // color: Colors.red,
-                                    borderRadius: BorderRadius.circular(10),
+                                    borderRadius: BorderRadius.circular(50),
                                     image: const DecorationImage(
                                       image: NetworkImage(
                                           "https://wedarranger.com//images/makeup1.jpeg"),
@@ -141,7 +141,7 @@ class _BottomHomeState extends State<BottomHome> {
                                 ),
                                 Container(
                                   height: 50,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(10),
@@ -169,7 +169,7 @@ class _BottomHomeState extends State<BottomHome> {
                           },
                           child: Container(
                             height: 150,
-                            width: 200,
+                            width: 100,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(10),
@@ -179,10 +179,10 @@ class _BottomHomeState extends State<BottomHome> {
                               children: <Widget>[
                                 Container(
                                   height: 100,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     // color: Colors.red,
-                                    borderRadius: BorderRadius.circular(10),
+                                    borderRadius: BorderRadius.circular(50),
                                     image: const DecorationImage(
                                       image: NetworkImage(
                                           "https://wedarranger.com//images/makeup2.jpg"),
@@ -192,7 +192,7 @@ class _BottomHomeState extends State<BottomHome> {
                                 ),
                                 Container(
                                   height: 50,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(10),
@@ -220,7 +220,7 @@ class _BottomHomeState extends State<BottomHome> {
                           },
                           child: Container(
                             height: 150,
-                            width: 200,
+                            width: 100,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(10),
@@ -230,10 +230,10 @@ class _BottomHomeState extends State<BottomHome> {
                               children: <Widget>[
                                 Container(
                                   height: 100,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     // color: Colors.red,
-                                    borderRadius: BorderRadius.circular(10),
+                                    borderRadius: BorderRadius.circular(50),
                                     image: const DecorationImage(
                                       image: NetworkImage(
                                           "https://wedarranger.com//images/photo-banner.jpg"),
@@ -243,7 +243,7 @@ class _BottomHomeState extends State<BottomHome> {
                                 ),
                                 Container(
                                   height: 50,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(10),
@@ -271,7 +271,7 @@ class _BottomHomeState extends State<BottomHome> {
                           },
                           child: Container(
                             height: 150,
-                            width: 200,
+                            width: 100,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(10),
@@ -281,10 +281,10 @@ class _BottomHomeState extends State<BottomHome> {
                               children: <Widget>[
                                 Container(
                                   height: 100,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     // color: Colors.red,
-                                    borderRadius: BorderRadius.circular(10),
+                                    borderRadius: BorderRadius.circular(50),
                                     image: const DecorationImage(
                                       image: NetworkImage(
                                           "https://wedarranger.com//images/venue.jpg"),
@@ -294,7 +294,7 @@ class _BottomHomeState extends State<BottomHome> {
                                 ),
                                 Container(
                                   height: 50,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(10),
@@ -322,7 +322,7 @@ class _BottomHomeState extends State<BottomHome> {
                           },
                           child: Container(
                             height: 150,
-                            width: 200,
+                            width: 100,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(10),
@@ -332,10 +332,10 @@ class _BottomHomeState extends State<BottomHome> {
                               children: <Widget>[
                                 Container(
                                   height: 100,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     // color: Colors.red,
-                                    borderRadius: BorderRadius.circular(10),
+                                    borderRadius: BorderRadius.circular(50),
                                     image: const DecorationImage(
                                       image: NetworkImage(
                                           "https://wedarranger.com//images/makeup2.jpg"),
@@ -345,7 +345,7 @@ class _BottomHomeState extends State<BottomHome> {
                                 ),
                                 Container(
                                   height: 50,
-                                  width: 200,
+                                  width: 100,
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(10),
