@@ -1,6 +1,7 @@
-// ignore_for_file: prefer_const_constructors, sort_child_properties_last
+// ignore_for_file: prefer_const_constructors, sort_child_properties_last, unnecessary_new
 
 import 'package:flutter/material.dart';
+import 'package:travel_ui/DrawerPages/filter.dart';
 
 class DrawerSearch extends StatefulWidget {
   const DrawerSearch({super.key});
@@ -38,7 +39,13 @@ class _DrawerSearchState extends State<DrawerSearch> {
           Padding(
             padding: const EdgeInsets.fromLTRB(24, 10, 24, 10),
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => new DrawerFilter()),);
+              },
+              
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 // ignore: prefer_const_literals_to_create_immutables

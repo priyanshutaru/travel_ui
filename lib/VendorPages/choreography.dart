@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:dotted_line/dotted_line.dart';
+import 'package:travel_ui/DrawerPages/filter.dart';
 
 class DrawerVendorChoreography extends StatefulWidget {
   const DrawerVendorChoreography({super.key});
@@ -18,7 +19,12 @@ class _DrawerVendorVenueState extends State<DrawerVendorChoreography> {
         title: Text("Choreography"),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => new DrawerFilter()),
+          );
+        },
         child: Icon(Icons.filter_alt),
       ),
       body: Material(

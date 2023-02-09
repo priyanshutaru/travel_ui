@@ -6,7 +6,7 @@ import 'package:travel_ui/BottomNavBar/contact.dart';
 import 'package:travel_ui/BottomNavBar/course.dart';
 import 'package:travel_ui/BottomNavBar/home.dart';
 import 'package:travel_ui/BottomNavBar/login.dart';
-import 'package:travel_ui/DrawerPages/Contact.dart';
+import 'package:travel_ui/DrawerPages/package.dart';
 import 'package:travel_ui/DrawerPages/Login.dart';
 import 'package:travel_ui/DrawerPages/blog.dart';
 import 'package:travel_ui/DrawerPages/course.dart';
@@ -220,7 +220,7 @@ class AppDrawer extends StatelessWidget {
               Navigator.push(
                   context,
                   new MaterialPageRoute(
-                      builder: (context) => new DrawerContact()));
+                      builder: (context) => new DrawerPackages()));
             }),
           ),
           ListTile(

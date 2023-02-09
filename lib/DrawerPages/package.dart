@@ -2,17 +2,20 @@
 
 import 'package:flutter/material.dart';
 
-class BottomCourse extends StatefulWidget {
-  const BottomCourse({super.key});
+class DrawerPackages extends StatefulWidget {
+  const DrawerPackages({super.key});
 
   @override
-  State<BottomCourse> createState() => _BottomCourseState();
+  State<DrawerPackages> createState() => _DrawerContactState();
 }
 
-class _BottomCourseState extends State<BottomCourse> {
+class _DrawerContactState extends State<DrawerPackages> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // ignore: prefer_const_constructors
+      appBar: AppBar(title: Text("Packages")),
+      // ignore: prefer_const_constructors
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
@@ -357,3 +360,31 @@ class _BottomCourseState extends State<BottomCourse> {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*class BottomContact extends StatefulWidget {
+  const BottomContact({super.key});
+
+  @override
+  State<BottomContact> createState() => _BottomContactState();
+}
+
+class _BottomContactState extends State<BottomContact> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("Contact")),
+      body: Center(child: Text("Contact Us",style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,color: Colors.green),)),
+    );
+  }
+}*/
