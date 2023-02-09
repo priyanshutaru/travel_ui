@@ -101,14 +101,23 @@ class _DrawerVendorVenueState extends State<DrawerVendorMahandi> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.fromLTRB(23, 15, 0, 0),
-                            child: Container(
-                              child: Text(
-                                "Bride Mehndi Artist",
-                                style: TextStyle(
-                                    fontSize: 20,
-                                    color: Color.fromARGB(255, 11, 126, 242),
-                                    fontWeight: FontWeight.w500),
-                              ),
+                            child: Row(
+                              children: [
+                                Container(
+                                  child: Text(
+                                    "Bride Mehndi Artist",
+                                    style: TextStyle(
+                                        fontSize: 20,
+                                        color:
+                                            Color.fromARGB(255, 11, 126, 242),
+                                        fontWeight: FontWeight.w500),
+                                  ),
+                                ),
+                                Icon(
+                                  Icons.verified,
+                                  color: Colors.blue[700],
+                                ),
+                              ],
                             ),
                           ),
                         ],
@@ -218,14 +227,23 @@ class _DrawerVendorVenueState extends State<DrawerVendorMahandi> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.fromLTRB(23, 15, 0, 0),
-                            child: Container(
-                              child: Text(
-                                "Mehandi By Sonam",
-                                style: TextStyle(
-                                    fontSize: 20,
-                                    color: Color.fromARGB(255, 11, 126, 242),
-                                    fontWeight: FontWeight.w500),
-                              ),
+                            child: Row(
+                              children: [
+                                Container(
+                                  child: Text(
+                                    "Mehandi By Sonam",
+                                    style: TextStyle(
+                                        fontSize: 20,
+                                        color:
+                                            Color.fromARGB(255, 11, 126, 242),
+                                        fontWeight: FontWeight.w500),
+                                  ),
+                                ),
+                                Icon(
+                                  Icons.verified,
+                                  color: Colors.blue[700],
+                                ),
+                              ],
                             ),
                           ),
                         ],

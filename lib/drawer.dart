@@ -12,6 +12,7 @@ import 'package:travel_ui/DrawerPages/blog.dart';
 import 'package:travel_ui/DrawerPages/course.dart';
 import 'package:travel_ui/DrawerPages/home.dart';
 import 'package:travel_ui/DrawerPages/search_filter.dart';
+import 'package:travel_ui/DrawerPages/whywedarranger.dart';
 import 'package:travel_ui/VendorPages/band.dart';
 import 'package:travel_ui/VendorPages/catering.dart';
 import 'package:travel_ui/VendorPages/choreography.dart';
@@ -268,7 +269,7 @@ class AppDrawer extends StatelessWidget {
               Navigator.push(
                   context,
                   new MaterialPageRoute(
-                      builder: (context) => new DrawerLogin()));
+                      builder: (context) => new WhyWedArranger()));
             }),
           ),
         ],
