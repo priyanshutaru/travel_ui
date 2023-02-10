@@ -220,8 +220,9 @@ class _MycheckBoxState extends State<DrawerFilter> {
               child: Row(
                 // ignore: prefer_const_literals_to_create_immutables
                 children: [
-                  Icon(Icons.star,color: Colors.yellow[900],),
                   MyStatefulWidget(),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                  
                 ],
               ),
             ),
@@ -230,9 +231,10 @@ class _MycheckBoxState extends State<DrawerFilter> {
               child: Row(
                 // ignore: prefer_const_literals_to_create_immutables
                 children: [
-                  Icon(Icons.star,color: Colors.yellow[900],),
-                  Icon(Icons.star,color: Colors.yellow[900],),
                   MyStatefulWidget(),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                  
                 ],
               ),
             ),
@@ -241,10 +243,11 @@ class _MycheckBoxState extends State<DrawerFilter> {
               child: Row(
                 // ignore: prefer_const_literals_to_create_immutables
                 children: [
-                  Icon(Icons.star,color: Colors.yellow[900],),
-                  Icon(Icons.star,color: Colors.yellow[900],),
-                  Icon(Icons.star,color: Colors.yellow[900],),
                   MyStatefulWidget(),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                  
                 ],
               ),
             ),
@@ -253,11 +256,12 @@ class _MycheckBoxState extends State<DrawerFilter> {
               child: Row(
                 // ignore: prefer_const_literals_to_create_immutables
                 children: [
-                  Icon(Icons.star,color: Colors.yellow[900],),
-                  Icon(Icons.star,color: Colors.yellow[900],),
-                  Icon(Icons.star,color: Colors.yellow[900],),
-                  Icon(Icons.star,color: Colors.yellow[900],),
                   MyStatefulWidget(),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                  Icon(Icons.star,color: Colors.yellow[900],),
+                 
                 ],
               ),
             ),
@@ -266,12 +270,13 @@ class _MycheckBoxState extends State<DrawerFilter> {
               child: Row(
                 // ignore: prefer_const_literals_to_create_immutables
                 children: [
+                  MyStatefulWidget(),
                   Icon(Icons.star,color: Colors.yellow[900],),
                   Icon(Icons.star,color: Colors.yellow[900],),
                   Icon(Icons.star,color: Colors.yellow[900],),
                   Icon(Icons.star,color: Colors.yellow[900],),
                   Icon(Icons.star,color: Colors.yellow[900]),
-                  MyStatefulWidget(),
+                  
                 ],
               ),
             ),
@@ -303,7 +308,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       if (states.any(interactiveStates.contains)) {
         return Colors.blue;
       }
-      return Colors.red;
+      return Colors.black;
     }
 
     return Checkbox(

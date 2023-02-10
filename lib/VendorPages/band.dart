@@ -19,6 +19,7 @@ class _DrawerVendorVenueState extends State<DrawerVendorBand> {
         title: Text("Band"),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.teal,
         onPressed: () {
           Navigator.push(
             context,

@@ -17,6 +17,15 @@ class _DrawerSearchState extends State<DrawerSearch> {
       appBar: AppBar(
         title: const Text("Search Here"),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => new DrawerFilter()),
+          );
+        },
+        child: Icon(Icons.filter_alt),
+      ),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
@@ -36,33 +45,33 @@ class _DrawerSearchState extends State<DrawerSearch> {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(24, 10, 24, 10),
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => new DrawerFilter()),);
-              },
+          // Padding(
+          //   padding: const EdgeInsets.fromLTRB(24, 10, 24, 10),
+          //   child: ElevatedButton(
+          //     onPressed: () {
+          //       Navigator.push(
+          //         context,
+          //         MaterialPageRoute(
+          //             builder: (context) => new DrawerFilter()),);
+          //     },
               
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                // ignore: prefer_const_literals_to_create_immutables
-                children: [
-                  Text('Filter'), // <-- Text
-                  SizedBox(
-                    width: 5,
-                  ),
-                  Icon(
-                    // <-- Icon
-                    Icons.filter_alt,
-                    size: 24.0,
-                  ),
-                ],
-              ),
-            ),
-          ),
+          //     child: Row(
+          //       mainAxisSize: MainAxisSize.min,
+          //       // ignore: prefer_const_literals_to_create_immutables
+          //       children: [
+          //         Text('Filter'), // <-- Text
+          //         SizedBox(
+          //           width: 5,
+          //         ),
+          //         Icon(
+          //           // <-- Icon
+          //           Icons.filter_alt,
+          //           size: 24.0,
+          //         ),
+          //       ],
+          //     ),
+          //   ),
+          // ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Row(
